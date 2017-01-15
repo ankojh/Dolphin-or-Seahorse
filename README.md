@@ -34,7 +34,7 @@ Open localhost:5000 to access digits
 For training from the dataset my system took the following time
 
 
-![S-AlexNet JS](/S-AlexNet/T-AlexNet JS.png)
+![S-AlexNet JS](/S-AlexNet/T-AlexNetJS.png)
 
 Intially the accuracy started with low and slowly after every epoch it started improving at the same time loss was reduced significantly. 
 
@@ -55,11 +55,13 @@ To improve it we can use pretrained networks which are trained in ImageNet datas
 ##Model 2 : FineTuning and Training the AlexNet
 
 - Add AlexNet Pretrained Model which you have downloaded earlier.
-- Add Model Definition for the AlexNet, We need to change the last layer of the AlexNet to configure the model for our dataset, which results [this]()
+- Add Model Definition for the AlexNet, We need to change the last layer of the AlexNet to configure the model for our dataset, like [this](/model_definition/FT-Alexnet.prototxt)
 - Hit Create to start training.
 
 For training from the dataset my system took the following time
-![FT-AlexNet JS](/images/logo.png)
+
+
+![FT-AlexNet JS](/FT-AlexNet/FT-AlexNetJS.png)
 
 The accuracy started with 55, but then directly shoots to max at 100, and slowly the loss reduced to near zero.
 
@@ -80,7 +82,7 @@ Here are few test results:
 
 Same as above, add GoogleLeNet Pretrained Moded and Model Definitions and hit Create
 
-We need to change the last 3 layers of the GoogleLeNet to configure the model for our dataset, which results [this]()
+We need to change the last 3 layers of the GoogleLeNet to configure the model for our dataset, like [this](/model_definition/FT-GoogleLeNet.prototxt)
 
 For training from the dataset my system took the following time
 
@@ -108,4 +110,7 @@ Convolutional Neural Networks was a hot topic in 2012-2015, a recent technology 
 
 Have a great brewing in caffe.
 
-###[Source](https://github.com/humphd/have-fun-with-machine-learning)(Recommended)
+####[Source](https://github.com/humphd/have-fun-with-machine-learning)(Recommended)
+
+Contact me at [ankitkumarojha2@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=ankitkumarojha2@gmail.com&su=GitHub Dolphin-or-SeaHorse: &body=&bcc=) if you need my pretrained models or full model files.
+
