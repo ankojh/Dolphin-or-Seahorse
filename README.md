@@ -89,7 +89,7 @@ For training from the dataset my system took the following time
 
 ![FT-GoogleLeNet JS](/FT-GoogleLeNet/FT-GoogleLeNetJs.png)
 
-The accuracy started with 55, but then directly shoots to max at 100, and slowly the loss reduced to near zero.
+The accuracy(3)  started somewhere in middle, but then reaches to max at 100, simulantously loss(3) dropped to zero.
 
 
 ![FT-GoogleLeNet Graph](/FT-GoogleLeNet/FT-GoogleLeNet.png)
